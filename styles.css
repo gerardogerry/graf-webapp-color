@@ -1,0 +1,43 @@
+/* Estilo general */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Contenedor principal */
+.card {
+    max-width: 500px;
+    margin: auto;
+    border-radius: 15px;
+    background: white;
+}
+
+/* Cuadro de color */
+#color-box {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    border: 2px solid #ddd;
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Input color picker */
+input[type="color"] {
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 5px;
+    background: #fff;
+    cursor: pointer;
+}
+
+/* Rango de colores */
+input[type="range"] {
+    accent-color: #333;
+}
+
+/* Inputs de valores RGB */
+input[type="number"] {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
